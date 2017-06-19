@@ -10,9 +10,9 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class TokenAuthProvider implements AuthenticationProvider{
+
     @Override
     public Authentication authenticate(Authentication authentication) throws AuthenticationException {
-
 
         return null;
     }
